@@ -15,8 +15,6 @@ export default function FilterableProducts({ products }) {
         : true
     );
 
-  console.table(filteredProducts);
-
   return (
     <>
       <ProductSearch
